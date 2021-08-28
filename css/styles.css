@@ -33,18 +33,18 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #bd5d38;
+  --bs-primary: #012650;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
-  --bs-info: #0dcaf0;
+  --bs-info: #52aec1;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 1, 38, 80;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
+  --bs-info-rgb: 82, 174, 193;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #012650;
   text-decoration: underline;
 }
 a:hover {
@@ -11387,7 +11387,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #52aec1;
 }
 
 .dev-icons {
@@ -11424,6 +11424,22 @@ section.resume-section .resume-section-content {
 /*
   Styles Brando
 */
+.page-top::-webkit-scrollbar {
+  background-color: #ebe8e8;
+  border-radius: 8px;
+  width: 13px;
+}
+
+.page-top::-webkit-scrollbar-thumb {
+  background-color: #012650;
+  border-radius: 8px;
+}
+
+.page-top::-webkit-scrollbar-thumb:hover {
+  background: #043368;
+  /* box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); */
+}
+
 .bg-yellow {
   background-color: yellow;
 }
@@ -11535,7 +11551,7 @@ section.resume-section .resume-section-content {
 }
 
 .circle {
-  box-shadow: rgb(190, 130, 106) 5px 5px 9px;
+  box-shadow: rgb(1, 38, 80) 0px 0px 9px;
   border-radius: 50%;
   height: 8rem;
   width: 8rem;
