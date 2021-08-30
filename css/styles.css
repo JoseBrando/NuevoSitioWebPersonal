@@ -11488,6 +11488,22 @@ section.resume-section .resume-section-content {
   background-color: #bbbbbb;
 }
 
+.bg-gray-eee {
+  background-color: #eeeeee;
+}
+
+.bg-postman {
+  background-color: #f76935;
+}
+
+.bg-jira {
+  background-color: #1067e2;
+}
+
+.bg-gitlab {
+  background-color: #fc6d26;
+}
+
 .b-black-8 {
   border: 8px solid #000000;
 }
@@ -11514,6 +11530,10 @@ section.resume-section .resume-section-content {
 
 .c-node {
   color: #403f3a;
+}
+
+.c-vscode {
+  color: #00a5ed;
 }
 
 .d-flex {
